@@ -1,0 +1,217 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 30px;
+	background:url('../img/img.jpg');
+}
+h2,h3,h4{
+	font-family: 'Nova Flat';
+
+}
+h1{
+   text-align: center;
+   text-underline-position: center;
+   font-family: 'Nova Flat';
+   color: #000;
+}
+.noti-div h4{
+	padding:10px;
+}
+.noti-div i {
+	display:block;
+	padding:15px;
+}
+.noti-div a,.noti-div a:hover {
+	text-decoration:none;
+}
+section {
+	padding:100px 0px 0px 0px;
+}
+.img-max-width {
+	max-width: 270px;
+}
+
+/* =============================================================
+   HEADER STYLES
+   ============================================================ */
+   #head {
+   	padding:50px; width: 1500px;
+   	background-image:url('../image/dark.png');
+   	color:#fff;
+   }
+
+   #head span {
+   	color:#ff8c00;
+   	margin-right:5px;
+   }
+   #head .header-mid {
+   	max-height:65px;
+   }
+
+   #head h4 {
+   	font-size:15px;
+   	font-weight:500;
+   }
+/* =============================================================
+   MAIN SECTION STYLES
+   ============================================================ */
+   #main h3 {
+   	color:#000;
+   	padding:0px 0px 10px 0px;
+   	line-height: 40px;
+   }
+   #main .hr-div hr{
+   	padding-bottom:30px;
+
+   }
+   .logout-link {
+   	margin-bottom:40px!important;
+   }
+
+   .radio-button{
+   	margin-top: 10px;
+   	float: left;
+   	margin-left: 25px;
+   }
+   .radio-button label, .radio-button input{
+   	float: center;    
+   }
+
+   th{
+   	background-color: #428bca;
+   }
+
+    /* =============================================================
+   FOOTER STYLES
+   ============================================================ */
+
+   #footer {
+   	padding:30px;
+   	background:url('../image/dark.png');
+   	color:#fff;
+   	margin-top:100px;
+   }
+   #footer h4{
+   	font-size:15px;
+   	font-weight:500;
+   }
+   #footer h3 {
+   	color:black;
+   }
+   #footer span {
+   	color:black;
+   	margin-right:5px;
+   }
+
+   table {
+   	font-family: arial, sans-serif;
+   	border-collapse: collapse;
+   	width: 100%;
+
+   }
+
+   tr:nth-child(even) {
+   	background-color: #dddddd;
+   }
+
+   .city {
+   	float: left;
+   	margin: 10px;
+   	padding: 10px;
+   	max-width: 300px;
+   	height: 300px;
+   	border: 1px solid black;
+   } 
+
+   #navbar {
+      transition: all 0.5s;
+      -moz-transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+   }
+   .box {
+    background:#fff;
+    transition:all 0.2s ease;
+    border:2px dashed #dadada;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-clip: padding-box;
+    padding:0 20px 20px 20px;
+    min-height:340px;
+ }
+ .box:hover {
+    border:2px solid #525C7A;
+ }
+
+ .box span.box-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.box .box-content {
+ padding: 16px;
+ border-radius: 0 0 2px 2px;
+ background-clip: padding-box;
+ box-sizing: border-box;
+}
+.box .box-content p {
+ color:#515c66;
+ text-transform:none;
+}
+.py-5{
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+.col-md-11 {
+   background-color:#F8FDF8;
+
+}
+#tulisantengah{
+   border: 1px solid rgb(204, 204, 204); 
+   padding: 15px; 
+   display: block; 
+   width:500px; 
+   height: 70px;
+   background-color: #F1F9F1; 
+   text-align: center; 
+   margin-left:400px;
+   border-radius: 20px;
+}
+#tulisantengah2{
+   border: 1px solid rgb(204, 204, 204); 
+   padding: 15px; 
+   display: block; 
+   width:400px; 
+   height: 50px;
+   background-color: #0000ff; 
+   text-align: center; 
+   margin-left:450px;
+   border-radius: 10px;
+   color: white;
+}
+.profile {
+  margin: 20px 0;
+}
+.profile-sidebar {
+  padding: 0px;
+  background: #e6e6ff;
+}
+.profile-usertitle {
+  text-align: center;
+  margin-top: 0px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.profile-content {
+  padding: 20px;
+  background: #e6e6ff;
+  min-height: 400px;
+}
